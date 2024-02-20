@@ -1,1 +1,181 @@
 /* your CSS goes here */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 3.5rem; 
+}
+
+h2 {
+    font-size: 2rem; 
+}
+
+.material-icons {
+    font-family: 'Material Icons', sans-serif;
+    position: relative;
+    top: 5px;
+}
+
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+p, dl{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c96bf;
+    color: white;
+    padding: .5rem .5rem 1rem .5rem;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* #menu{
+    background-color: #f0f0f0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.menu-section dt {
+    font-size: 1.25rem; 
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#menu dt{
+    font-size: 1.25rem;
+    font-weight: bold;
+} */
+
+#menu {
+    background-color: #f0f0f0;
+}
+
+#menu dt {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem; 
+}
+
+#menu dd {
+    margin: 0;
+}
+
+
+#about{
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: #f0f0f0;
+    border-bottom: 0.8rem solid #f0f0f0;
+}
+
+header {
+    background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+    color: white;
+    padding-top: 6rem; 
+    padding-bottom: 1rem; 
+}
+
+header p.motto {
+    font-style: italic;
+    font-size: 1.25rem; 
+}
+
+.menu-section {
+    background-color: #f0f0f0;
+}
+
+/* .menu-section dd {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#menu dd{
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+} */
+
+#menu img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+.about-section {
+    background-color: #e0e0e0;
+    line-height: 1.5; 
+}
+
+footer {
+    color: white;
+    background-color: #3e1305;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.25; 
+}
+
+footer p:last-child {
+    padding-top: 8px;
+}
