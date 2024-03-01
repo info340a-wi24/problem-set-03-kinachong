@@ -1,4 +1,64 @@
-body {
-  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
-  margin: 0;
+
+*{
+  box-sizing: border-box;
 }
+
+html, body, main > div {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+main {
+  flex: 1;
+}
+
+main > div {
+  display: flex;
+}
+
+section {
+  padding: 1em;
+}
+
+.first {
+  flex-basis: 240px;
+}
+
+.second {
+  flex: 1;
+  background-color: #eee;
+}
+
+.third {
+  flex-basis: 180px;
+  flex-shrink: 0;
+}
+
+.second > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.second > div > div {
+  flex: 0 0 250px;
+  background-color: white;
+  margin: .5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+}
+
+.second p {
+  padding: .5rem 1rem;
+}
+
+.second img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
